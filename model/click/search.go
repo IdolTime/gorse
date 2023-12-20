@@ -16,13 +16,14 @@ package click
 
 import (
 	"fmt"
+	"idolTime-gorse/base"
+	"idolTime-gorse/model"
 	"sync"
 	"time"
 
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/model"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/base/task"
+
 	"go.uber.org/zap"
 )
 

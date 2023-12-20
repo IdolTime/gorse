@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"github.com/scylladb/go-set"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/task"
+
+	"idolTime-gorse/base/task"
 	"testing"
 	"time"
 )

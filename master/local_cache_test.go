@@ -16,10 +16,9 @@ package master
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/model"
-	"github.com/zhenghaoz/gorse/model/click"
-	"github.com/zhenghaoz/gorse/model/ranking"
+
+	"idolTime-gorse/model/click"
+	"idolTime-gorse/model/ranking"
 	"os"
 	"path/filepath"
 	"testing"

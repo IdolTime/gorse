@@ -15,10 +15,10 @@
 package config
 
 import (
-	"github.com/zhenghaoz/gorse/model/click"
-	"github.com/zhenghaoz/gorse/model/ranking"
-	"github.com/zhenghaoz/gorse/storage/cache"
-	"github.com/zhenghaoz/gorse/storage/data"
+	"idolTime-gorse/model/click"
+	"idolTime-gorse/model/ranking"
+	"idolTime-gorse/storage/cache"
+	"idolTime-gorse/storage/data"
 )
 
 type Settings struct {

@@ -17,7 +17,7 @@ package base
 import (
 	"encoding/binary"
 	"github.com/juju/errors"
-	"github.com/zhenghaoz/gorse/base/encoding"
+	"idolTime-gorse/base/encoding"
 	"io"
 	"reflect"
 	"strconv"

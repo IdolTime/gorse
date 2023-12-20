@@ -16,8 +16,8 @@ package click
 import (
 	"bytes"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/model"
+	"idolTime-gorse/base/task"
+
 	"testing"
 )
 

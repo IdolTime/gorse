@@ -19,6 +19,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"idolTime-gorse/base"
+	"idolTime-gorse/config"
+	"idolTime-gorse/server"
 	"io"
 	"net/http"
 	"os"
@@ -37,18 +40,18 @@ import (
 	"github.com/rakyll/statik/fs"
 	"github.com/samber/lo"
 	"github.com/scylladb/go-set/strset"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/encoding"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/cmd/version"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/model/click"
-	"github.com/zhenghaoz/gorse/model/ranking"
-	"github.com/zhenghaoz/gorse/server"
-	"github.com/zhenghaoz/gorse/storage/cache"
-	"github.com/zhenghaoz/gorse/storage/data"
+
+	"idolTime-gorse/base/encoding"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/base/task"
+	"idolTime-gorse/cmd/version"
+
+	"idolTime-gorse/model/click"
+	"idolTime-gorse/model/ranking"
+
 	"go.uber.org/zap"
+	"idolTime-gorse/storage/cache"
+	"idolTime-gorse/storage/data"
 )
 
 func (m *Master) CreateWebService() {

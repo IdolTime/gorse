@@ -18,8 +18,9 @@ import (
 	"encoding/binary"
 	"fmt"
 	"github.com/juju/errors"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/log"
+	"idolTime-gorse/base"
+
+	"idolTime-gorse/base/log"
 	"io"
 	"reflect"
 	"strconv"

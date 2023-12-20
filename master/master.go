@@ -17,6 +17,10 @@ package master
 import (
 	"context"
 	"fmt"
+	"idolTime-gorse/base"
+	"idolTime-gorse/config"
+	"idolTime-gorse/protocol"
+	"idolTime-gorse/server"
 	"math"
 	"math/rand"
 	"net"
@@ -27,22 +31,21 @@ import (
 	"github.com/ReneKroon/ttlcache/v2"
 	"github.com/emicklei/go-restful/v3"
 	"github.com/juju/errors"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/encoding"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/base/parallel"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/model/click"
-	"github.com/zhenghaoz/gorse/model/ranking"
-	"github.com/zhenghaoz/gorse/protocol"
-	"github.com/zhenghaoz/gorse/server"
-	"github.com/zhenghaoz/gorse/storage/cache"
-	"github.com/zhenghaoz/gorse/storage/data"
+
+	"idolTime-gorse/base/encoding"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/base/parallel"
+	"idolTime-gorse/base/task"
+
+	"idolTime-gorse/model/click"
+	"idolTime-gorse/model/ranking"
+
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
+	"idolTime-gorse/storage/cache"
+	"idolTime-gorse/storage/data"
 )
 
 type ScheduleState struct {

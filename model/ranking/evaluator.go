@@ -19,10 +19,10 @@ import (
 	"github.com/scylladb/go-set"
 	"github.com/scylladb/go-set/i32set"
 	"github.com/thoas/go-funk"
-	"github.com/zhenghaoz/gorse/base/copier"
-	"github.com/zhenghaoz/gorse/base/floats"
-	"github.com/zhenghaoz/gorse/base/heap"
-	"github.com/zhenghaoz/gorse/base/parallel"
+	"idolTime-gorse/base/copier"
+	"idolTime-gorse/base/floats"
+	"idolTime-gorse/base/heap"
+	"idolTime-gorse/base/parallel"
 )
 
 /* Evaluate Item Ranking */

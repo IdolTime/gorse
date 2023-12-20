@@ -15,7 +15,7 @@
 package protocol
 
 import (
-	"github.com/zhenghaoz/gorse/base/task"
+	"idolTime-gorse/base/task"
 	"time"
 )
 

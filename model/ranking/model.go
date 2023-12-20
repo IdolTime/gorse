@@ -16,6 +16,8 @@ package ranking
 
 import (
 	"fmt"
+	"idolTime-gorse/base"
+	"idolTime-gorse/model"
 	"io"
 	"reflect"
 	"time"
@@ -25,14 +27,14 @@ import (
 	"github.com/juju/errors"
 	"github.com/samber/lo"
 	"github.com/scylladb/go-set/i32set"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/copier"
-	"github.com/zhenghaoz/gorse/base/encoding"
-	"github.com/zhenghaoz/gorse/base/floats"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/base/parallel"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/model"
+
+	"idolTime-gorse/base/copier"
+	"idolTime-gorse/base/encoding"
+	"idolTime-gorse/base/floats"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/base/parallel"
+	"idolTime-gorse/base/task"
+
 	"go.uber.org/zap"
 )
 

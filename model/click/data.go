@@ -18,8 +18,9 @@ import (
 	"bufio"
 	"github.com/juju/errors"
 	"github.com/scylladb/go-set"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/model"
+	"idolTime-gorse/base"
+	"idolTime-gorse/model"
+
 	"modernc.org/mathutil"
 	"os"
 	"strconv"

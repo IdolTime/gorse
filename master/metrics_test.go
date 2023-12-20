@@ -16,7 +16,7 @@ package master
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/server"
+
 	"testing"
 	"time"
 )

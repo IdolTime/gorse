@@ -33,17 +33,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	"github.com/thoas/go-funk"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/parallel"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/model"
-	"github.com/zhenghaoz/gorse/model/click"
-	"github.com/zhenghaoz/gorse/model/ranking"
-	"github.com/zhenghaoz/gorse/protocol"
-	"github.com/zhenghaoz/gorse/storage/cache"
-	"github.com/zhenghaoz/gorse/storage/data"
+
+	"idolTime-gorse/base/parallel"
+
+	"idolTime-gorse/model/click"
+	"idolTime-gorse/model/ranking"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
+	"idolTime-gorse/storage/cache"
+	"idolTime-gorse/storage/data"
 )
 
 type WorkerTestSuite struct {

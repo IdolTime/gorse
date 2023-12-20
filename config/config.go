@@ -19,6 +19,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
+	"idolTime-gorse/storage"
 	"os"
 	"reflect"
 	"strings"
@@ -32,8 +33,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/samber/lo"
 	"github.com/spf13/viper"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/storage"
+	"idolTime-gorse/base/log"
+
 	"go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"

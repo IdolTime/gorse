@@ -21,10 +21,12 @@ import (
 	"github.com/scylladb/go-set"
 	"github.com/scylladb/go-set/i32set"
 	"github.com/scylladb/go-set/strset"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/encoding"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/model"
+	"idolTime-gorse/base"
+	"idolTime-gorse/model"
+
+	"idolTime-gorse/base/encoding"
+	"idolTime-gorse/base/log"
+
 	"go.uber.org/zap"
 	"os"
 	"reflect"

@@ -16,9 +16,9 @@ package search
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/model"
-	"github.com/zhenghaoz/gorse/model/ranking"
+	"idolTime-gorse/base/task"
+
+	"idolTime-gorse/model/ranking"
 	"math/big"
 	"runtime"
 	"testing"

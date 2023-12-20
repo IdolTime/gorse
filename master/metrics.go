@@ -15,14 +15,15 @@
 package master
 
 import (
+	"idolTime-gorse/server"
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/samber/lo"
 	"github.com/scylladb/go-set/i32set"
-	"github.com/zhenghaoz/gorse/server"
-	"github.com/zhenghaoz/gorse/storage/cache"
+
+	"idolTime-gorse/storage/cache"
 )
 
 const (

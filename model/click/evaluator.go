@@ -16,7 +16,7 @@ package click
 
 import (
 	"github.com/chewxy/math32"
-	"github.com/zhenghaoz/gorse/base/copier"
+	"idolTime-gorse/base/copier"
 	"modernc.org/sortutil"
 	"sort"
 )

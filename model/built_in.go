@@ -17,7 +17,7 @@ package model
 import (
 	"archive/zip"
 	"fmt"
-	"github.com/zhenghaoz/gorse/base/log"
+	"idolTime-gorse/base/log"
 	"io"
 	"net/http"
 	"os"

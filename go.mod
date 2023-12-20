@@ -1,4 +1,4 @@
-module github.com/zhenghaoz/gorse
+module idolTime-gorse
 
 go 1.18
 

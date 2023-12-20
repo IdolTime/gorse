@@ -21,8 +21,6 @@ import (
 
 	"github.com/scylladb/go-set"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/model"
 )
 
 const evalEpsilon = 0.00001

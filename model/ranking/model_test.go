@@ -16,9 +16,9 @@ package ranking
 import (
 	"bytes"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base/floats"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/model"
+	"idolTime-gorse/base/floats"
+	"idolTime-gorse/base/task"
+
 	"math"
 	"runtime"
 	"testing"

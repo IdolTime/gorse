@@ -15,7 +15,7 @@
 package search
 
 import (
-	"github.com/zhenghaoz/gorse/base/heap"
+	"idolTime-gorse/base/heap"
 )
 
 var _ VectorIndex = &Bruteforce{}

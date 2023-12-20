@@ -16,9 +16,9 @@ package main
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/cmd/version"
-	"github.com/zhenghaoz/gorse/server"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/cmd/version"
+
 	"go.uber.org/zap"
 	_ "net/http/pprof"
 	"os"

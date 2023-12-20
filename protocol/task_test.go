@@ -16,7 +16,7 @@ package protocol
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base/task"
+	"idolTime-gorse/base/task"
 	"testing"
 	"time"
 )

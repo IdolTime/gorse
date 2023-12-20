@@ -17,9 +17,9 @@ package search
 import (
 	"fmt"
 	"github.com/chewxy/math32"
-	"github.com/zhenghaoz/gorse/base/floats"
-	"github.com/zhenghaoz/gorse/base/log"
 	"go.uber.org/zap"
+	"idolTime-gorse/base/floats"
+	"idolTime-gorse/base/log"
 	"modernc.org/sortutil"
 	"reflect"
 	"sort"

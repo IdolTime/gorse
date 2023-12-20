@@ -16,7 +16,7 @@ package server
 
 import (
 	"fmt"
-	"github.com/zhenghaoz/gorse/base/log"
+	"idolTime-gorse/base/log"
 	"net/http"
 	"net/url"
 	"os"

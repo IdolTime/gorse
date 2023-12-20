@@ -17,12 +17,13 @@ package search
 import (
 	"github.com/chewxy/math32"
 	"github.com/scylladb/go-set/i32set"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/heap"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/base/parallel"
-	"github.com/zhenghaoz/gorse/base/task"
+	"idolTime-gorse/base"
+
 	"go.uber.org/zap"
+	"idolTime-gorse/base/heap"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/base/parallel"
+	"idolTime-gorse/base/task"
 	"math/rand"
 	"modernc.org/mathutil"
 	"runtime"

@@ -27,10 +27,10 @@ import (
 	"github.com/steinfletcher/apitest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/storage/cache"
-	"github.com/zhenghaoz/gorse/storage/data"
+
 	"google.golang.org/protobuf/proto"
+	"idolTime-gorse/storage/cache"
+	"idolTime-gorse/storage/data"
 )
 
 const apiKey = "test_api_key"

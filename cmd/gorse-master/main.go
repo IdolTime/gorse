@@ -20,10 +20,9 @@ import (
 	"os/signal"
 
 	"github.com/spf13/cobra"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/cmd/version"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/master"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/cmd/version"
+
 	"go.uber.org/zap"
 )
 

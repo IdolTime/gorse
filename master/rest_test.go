@@ -35,12 +35,12 @@ import (
 	"github.com/samber/lo"
 	"github.com/steinfletcher/apitest"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/model/click"
-	"github.com/zhenghaoz/gorse/model/ranking"
-	"github.com/zhenghaoz/gorse/server"
-	"github.com/zhenghaoz/gorse/storage/cache"
-	"github.com/zhenghaoz/gorse/storage/data"
+
+	"idolTime-gorse/model/click"
+	"idolTime-gorse/model/ranking"
+
+	"idolTime-gorse/storage/cache"
+	"idolTime-gorse/storage/data"
 )
 
 const (

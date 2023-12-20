@@ -16,6 +16,7 @@ package cache
 
 import (
 	"context"
+	"idolTime-gorse/storage"
 	"sort"
 	"strconv"
 	"strings"
@@ -28,8 +29,8 @@ import (
 	"github.com/go-redis/redis/v9"
 	"github.com/juju/errors"
 	"github.com/samber/lo"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/storage"
+	"idolTime-gorse/base/log"
+
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"

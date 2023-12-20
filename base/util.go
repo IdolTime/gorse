@@ -15,8 +15,8 @@
 package base
 
 import (
-	"github.com/zhenghaoz/gorse/base/log"
 	"go.uber.org/zap"
+	"idolTime-gorse/base/log"
 )
 
 // RangeInt generate a slice [0, ..., n-1].

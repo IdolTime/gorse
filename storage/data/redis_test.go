@@ -18,7 +18,6 @@ import (
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/stretchr/testify/suite"
-	"github.com/zhenghaoz/gorse/storage"
 )
 
 type RedisTestSuite struct {

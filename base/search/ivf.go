@@ -15,19 +15,20 @@
 package search
 
 import (
+	"idolTime-gorse/base"
 	"math"
 	"math/rand"
 	"sync"
 	"time"
 
 	"github.com/chewxy/math32"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/base/heap"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/base/parallel"
-	"github.com/zhenghaoz/gorse/base/task"
+
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
+	"idolTime-gorse/base/heap"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/base/parallel"
+	"idolTime-gorse/base/task"
 	"modernc.org/mathutil"
 )
 

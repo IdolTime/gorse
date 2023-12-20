@@ -22,10 +22,10 @@ import (
 
 	"github.com/juju/errors"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base/task"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/storage/cache"
-	"github.com/zhenghaoz/gorse/storage/data"
+	"idolTime-gorse/base/task"
+
+	"idolTime-gorse/storage/cache"
+	"idolTime-gorse/storage/data"
 )
 
 func TestMaster_FindItemNeighborsBruteForce(t *testing.T) {

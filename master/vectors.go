@@ -19,7 +19,7 @@ import (
 	"github.com/bits-and-blooms/bitset"
 	"github.com/chewxy/math32"
 	"github.com/samber/lo"
-	"github.com/zhenghaoz/gorse/base/search"
+	"idolTime-gorse/base/search"
 	"reflect"
 )
 

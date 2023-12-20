@@ -21,6 +21,13 @@ import (
 	"database/sql"
 	_ "embed"
 	"fmt"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/cmd/version"
+	"idolTime-gorse/config"
+	"idolTime-gorse/master"
+	"idolTime-gorse/storage"
+	"idolTime-gorse/storage/data"
+	"idolTime-gorse/worker"
 	"io"
 	"net/http"
 	"os"
@@ -32,13 +39,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/schollz/progressbar/v3"
 	"github.com/spf13/cobra"
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/cmd/version"
-	"github.com/zhenghaoz/gorse/config"
-	"github.com/zhenghaoz/gorse/master"
-	"github.com/zhenghaoz/gorse/storage"
-	"github.com/zhenghaoz/gorse/storage/data"
-	"github.com/zhenghaoz/gorse/worker"
+
 	"go.uber.org/zap"
 )
 

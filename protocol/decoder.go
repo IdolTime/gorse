@@ -15,10 +15,10 @@
 package protocol
 
 import (
-	"github.com/zhenghaoz/gorse/base/log"
-	"github.com/zhenghaoz/gorse/model/click"
-	"github.com/zhenghaoz/gorse/model/ranking"
 	"go.uber.org/zap"
+	"idolTime-gorse/base/log"
+	"idolTime-gorse/model/click"
+	"idolTime-gorse/model/ranking"
 	"io"
 )
 
