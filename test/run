@@ -1,0 +1,6 @@
+修改/config/config.toml中的相应配置（redis/mysql ...）
+
+启动参数Programs arguments中添加
+--config=/yourPath/gorse/config/config.toml
+
+运行cmd/gorse-in-one/main.go
